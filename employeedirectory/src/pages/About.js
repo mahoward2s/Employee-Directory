@@ -7,14 +7,14 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
+      <Hero backgroundImage="https://www.scottsdirectories.com/wp-content/uploads/2017/10/BusinessDirectory.jpg">
+        <h1>Employee Directory</h1>
+        <h2>Find Your Workers</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To Pupster!</h1>
+            <h1>Employees</h1>
           </Col>
         </Row>
         <Row>
