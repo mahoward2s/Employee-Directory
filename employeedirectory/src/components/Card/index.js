@@ -2,23 +2,11 @@ import React from "react";
 import CardBtn from "../CardBtn";
 import "./style.css";
 
-function Card(props) {
+function Card({ name, image, dept, email, phone}) {
   return (
-    <div
-      className="card"
-      style={{
-        backgroundImage: props.image ? `url(${props.image})` : "none"
-      }}
-    >
-      {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
-      <CardBtn
-        onClick={props.handleBtnClick}
-        data-value="pass"
-      />
-      <CardBtn
-        onClick={props.handleBtnClick}
-        data-value="pick"
-      />
+    <div className="md:flex bg-white shadow text-gray-800 my-4 py-4 px-10 rounded-md items-center justify-between hover:bg-gray-300">
+      <img>
+      </img>
     </div>
   );
 }
