@@ -19,10 +19,12 @@ function About() {
       <Hero backgroundImage="https://www.scottsdirectories.com/wp-content/uploads/2017/10/BusinessDirectory.jpg">
         <h1>Employee Directory</h1>
         <h2>Find Your Workers</h2>
+        <Container style={{ minHeight: "80%" }}>
         <SearchForm
           handleFormSubmit={handleFormSubmit}
           handleInputChange={handleInputChange}
         />
+        </Container>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>

@@ -1,12 +1,18 @@
-import React, { useContext } from "react";
-import UserContext from "../../utils/userContext";
+import React from "react";
+import Card from "./Card";
 
-function CardBody() {
-  const { user } = useContext(UserContext);
+function CardBody({data}) {
   return (
-    <div>
-      <h4>Favorite language: {user.language}</h4>
-    </div>
+    data.map(employee => (
+      <Card
+      key={employee.id}
+      image={employee.image}  
+      name={employee.name}
+      dept={employee.dept}
+      email={employee.email}
+      phone={employee.phone}
+      />
+    ))
   );
 }
 
