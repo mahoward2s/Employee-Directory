@@ -3,14 +3,26 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import SearchForm from "../components/SearchForm";
 
 
 function About() {
+  function handleFormSubmit() {
+    console.log("Hi")
+  };
+  function handleInputChange() {
+    console.log("Bye")
+  }
+
   return (
     <div>
       <Hero backgroundImage="https://www.scottsdirectories.com/wp-content/uploads/2017/10/BusinessDirectory.jpg">
         <h1>Employee Directory</h1>
         <h2>Find Your Workers</h2>
+        <SearchForm
+          handleFormSubmit={handleFormSubmit}
+          handleInputChange={handleInputChange}
+        />
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
