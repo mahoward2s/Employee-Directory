@@ -45,7 +45,7 @@ function About() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Employees</h1>
+            <h1>Employees:</h1>
           </Col>
         </Row>
         <Row>
