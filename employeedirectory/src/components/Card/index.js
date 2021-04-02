@@ -10,9 +10,9 @@ function Card({ name, image, dept, email, phone}) {
       src={image}
       alt="Employee Pic"
       />
-      <p className="font-bold text-md">{name}</p>
+      <p className="name">{name}</p>
       <p>{dept}</p>
-      <p className="text-blue-500">{email}</p>
+      <p className="email">{email}</p>
       <p>{phone}</p>
     </div>
   );
