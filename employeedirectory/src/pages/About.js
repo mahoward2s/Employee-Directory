@@ -9,15 +9,8 @@ import employees from "../employeedata/employees.json"
 
 
 function About() {
-/*   function handleFormSubmit() {
-    console.log("Hi")
-  };
-  function handleInputChange() {
-    console.log("Bye")
-  } */
-
   const[searchTerm, setSearchTerm] = useState("");
-  const[sorter, setSorted] = useState(false);
+  const[sorted, setSorted] = useState(false);
   const[data, setEmployees] = useState(employees);
 
   function handleSearchTerm(event) {
@@ -43,8 +36,9 @@ function About() {
         <h2>Find Your Workers</h2>
         <Container style={{ minHeight: "80%" }}>
         <SearchForm
-          handleFormSubmit={handleFormSubmit}
-          handleInputChange={handleInputChange}
+         onSearch={handleSearchTerm}
+         searchTerm={searchTerm}
+         handleSortByName={handleSortByName}
         />
         </Container>
       </Hero>
