@@ -6,16 +6,16 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-danger bg-dark">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/Employee-Directory">
         Have You Seen My Employee?
       </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/"
+              to="/Employee-Directory"
               className={
-                window.location.pathname === "/"
+                window.location.pathname === "/Employee-Directory"
                   ? "nav-link active"
                   : "nav-link"
               }

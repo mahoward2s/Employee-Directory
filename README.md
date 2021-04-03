@@ -31,7 +31,7 @@
 
 
 - Link to Launched App:
-[Heroku]()
+[Gh-Pages](https://mahoward2s.github.io/Employee-Directory/)
 
 ## Usage 
 - clone repo to local device
