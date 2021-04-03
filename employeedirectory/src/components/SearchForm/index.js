@@ -13,9 +13,6 @@ function SearchForm({onSearch, searchTerm, handleSortByName}) {
           className="form-control"
           placeholder="Search Employee Name"
         />
-        <button type="submit" onClick={handleSortByName} className="btn btn-success">
-          Search
-        </button>
       </div>
     </form>
   );

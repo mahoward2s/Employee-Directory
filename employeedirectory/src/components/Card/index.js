@@ -1,19 +1,19 @@
 import React from "react";
 import "./style.css";
 
-function Card({ name, image, dept, email, phone}) {
+function Card({ name, image, dept, email, phone }) {
   return (
-    <div className="md:flex bg-white shadow text-gray-800 my-4 py-4 px-10 rounded-md items-center justify-between hover:bg-gray-300">
+    <div className="card">
       <img
-      style={{ maxWidth: "60px"}}
-      className="rounded-full shadow-md border border-gray-300"
-      src={image}
-      alt="Employee Pic"
+        variant="top"
+        className="image"
+        src={image}
+        alt="Employee Pic"
       />
-      <p className="name">{name}</p>
-      <p>{dept}</p>
+      <h1 className="name">{name}</h1>
+      <h3 className="department">{dept}</h3>
       <p className="email">{email}</p>
-      <p>{phone}</p>
+      <p className="phone">{phone}</p>
     </div>
   );
 }
