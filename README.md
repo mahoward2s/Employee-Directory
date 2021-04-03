@@ -13,7 +13,9 @@
 - [Questions](#questions)
 
 ## What To Expect:
-[Employee-Directory]()
+The following animation demonstrates the application functionality:
+
+![Employee-Directory](/employeedirectory/public/usagegif.gif)
 
 ## Description:
 - 
@@ -27,6 +29,8 @@
 [Heroku]()
 
 ## Usage 
+- clone repo to local device
+- open terminal
 - Start app with npm start
 
 ## License: 
