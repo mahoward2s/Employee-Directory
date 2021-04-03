@@ -13,12 +13,17 @@
 - [Questions](#questions)
 
 ## What To Expect:
-The following animation demonstrates the application functionality:
+- The following animation demonstrates the application functionality:
 
 ![Employee-Directory](/employeedirectory/public/usagegif.gif)
 
 ## Description:
-- 
+- As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+- An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+
+- This application allows an employee or manager to quickly search and identify employees by there name.  The information about the employee includes their department, email, and phone number.
+
+- Going forward there are still some styling changes I would like to make and some functionality changes with the searching/filtering.  
 
 ## Installation
 - Link to Repo:
